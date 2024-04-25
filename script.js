@@ -47,8 +47,10 @@ function guessingGame() {
         
     }
     
+    
     console.log("Total Points: ", maxPoints, " out of ", maxGuesses * 10);
 
+    // Change the DOM to represent score vs highest possible score
     const score = document.getElementById("score");
     const highestPossible = document.getElementById("highestPossible");
 
